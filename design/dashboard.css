@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../assets/bg.gif);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right:3%;
+    margin-left: 2% ;
+}
+.navbar h1{
+    font-size: 55px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.navbar ul li{
+    padding-right: 35%;
+    text-transform: uppercase;
+    width: 100%;
+    list-style: none;  
+    font-size: 25px; 
+    position: relative;  
+   
+}
+.navbar ul li a{
+    transition: 0.5s;
+}
+a:hover{
+    letter-spacing: 2px;
+    color:aqua;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+.navbar ul li a{
+    color:white
+}
+
+.navbar h1 span{
+    color: #97f8f8;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 10%;
+}
+
+.container h1{
+    font-size: 90px;
+    margin-bottom: 5%;
+}
+.container h1 span{
+    color: #97f8f8;
+}
+.Line1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.Line2{
+    font-size:25px;
+    letter-spacing: 2px;
+}
